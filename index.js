@@ -32,7 +32,7 @@ restService.post("/echo", function(req, res) {
   return res.json({
     //payload: temp,
     //data: temp,
-    //fulfillmentText: "Sample response",
+    fulfillmentText: "Sample response",
     speech: speech,
     displayText: speech,
     source: "webhook-echo-sample"
